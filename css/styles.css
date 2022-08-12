@@ -1,0 +1,277 @@
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+section {
+  padding-top: 54px;
+}
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.main-page {
+  background: linear-gradient(270deg, #aee2ff 0%, rgba(32, 173, 243, 0) 100%);
+  margin-left: auto;
+  margin-right: auto;
+}
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.wrapper {
+  background-image: url(../img/gus.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+}
+
+header {
+  padding-bottom: 34px;
+  display: flex;
+}
+
+.main-page-row {
+  padding-bottom: 34px;
+}
+
+.logo-text {
+  margin-left: 18px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #010101;
+  display: flex;
+  align-items: center;
+}
+
+.banderogus-container {
+  width: 450px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.822);
+}
+
+.banderogus-title {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 72px;
+  color: #131314;
+  margin-top: 20px;
+}
+
+.banderogus-greting {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #131314;
+  margin-bottom: 16px;
+}
+
+.banderogus-start {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ff6b0a;
+}
+
+.banderogus-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #131314;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.banderogus-launch {
+  padding: 12px 24px;
+  background: #ff6b0a;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.gus-facts {
+  padding: 52px 0px 72 px 0px;
+}
+
+.gus-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.2;
+  text-align: center;
+  color: #131314;
+  margin: 16px 0;
+}
+
+.gus-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #131314;
+  min-width: none;
+}
+
+.ukr-logo {
+  margin: 0 auto;
+}
+
+.gus-facts-containet {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gus-fact-item {
+  background: linear-gradient(
+    180deg,
+    rgba(194, 234, 255, 0.158) 0%,
+    rgba(174, 227, 255, 0.011) 100%
+  );
+  border-radius: 50%;
+}
+
+.gus-fact-title {
+  font-weight: 600;
+  text-align: center;
+  font-size: 24px;
+  line-height: 24px;
+  color: #131314;
+  margin-top: -40px;
+  margin-bottom: 12px;
+}
+
+.gus-fact-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #131314;
+  width: 280px;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
+.footer {
+  padding-bottom: 88px;
+  background: linear-gradient(270deg, #aee2ff 0%, rgba(174, 226, 255, 0) 100%);
+}
+
+.modal-bgd {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(27, 29, 31, 70%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-form-container {
+  background-color: #fff;
+  padding: 60px;
+  position: relative;
+}
+
+.modal-form-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #131314;
+  margin: 32px 0 12px 0;
+}
+
+.modal-form-desrc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #131314;
+  margin-bottom: 24px;
+}
+
+.modal-field-mame {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #131314;
+  margin-bottom: 4px;
+}
+
+.modal-form-field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-field-input {
+  box-sizing: border-box;
+  width: 370px;
+  height: 48px;
+  border: 1px solid #005bbb;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #131314;
+  margin-bottom: 24px;
+  padding: 4px 8px;
+}
+
+.modal-form-button {
+  padding: 12px 24px;
+  background: #ff6b0a;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.close-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 20px;
+  color: #131314;
+  margin: 16px 16px 0 0;
+  padding: 0px 8px 2px 8px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.modal-active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.gus-anim {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
